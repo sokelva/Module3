@@ -22,6 +22,12 @@ namespace ConsoleApp1
             Console.WriteLine("Привет, мир! \n Я тебя люблю!");
             Console.WriteLine("Мне 27 лет, \t а моей сестре 25.");
             Console.WriteLine("My name is Jane.\n Мое имя Елена.");
+
+            Console.WriteLine('\u0040');
+            Console.WriteLine('\u0026');
+            Console.WriteLine('\x23');
+            Console.WriteLine('\x0A');
+
             Console.ReadKey();
         }
     }
