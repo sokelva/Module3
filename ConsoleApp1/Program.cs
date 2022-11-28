@@ -7,15 +7,22 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
 
-    enum DaysOfWeek : byte
+    //enum DaysOfWeek : byte
+    //{
+    //    Monday = 1,
+    //    Tusday,
+    //    Wedneday,
+    //    Thusday,
+    //    Friday,
+    //    Satuday,
+    //    Sunday
+    //}
+
+    enum Semaphore
     {
-        Monday = 1,
-        Tusday,
-        Wedneday,
-        Thusday,
-        Friday,
-        Satuday,
-        Sunday
+        Red = 100, 
+        Yellow = 200, 
+        Green = 300
     }
 
     class Program
