@@ -6,6 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+
+    enum DaysOfWeek : byte
+    {
+        Monday = 1,
+        Tusday,
+        Wedneday,
+        Thusday,
+        Friday,
+        Satuday,
+        Sunday
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -38,16 +50,23 @@ namespace ConsoleApp1
             ////Console.WriteLine(null);
             ///
 
-            string MyName = "Елена";
-            byte age = 42;
-            bool isPet = true;
-            double size = 37.5;
-            Console.WriteLine("Мое имя:{0};\nВаш возраст:{1};\nА есть ли у вас домашний питомец:{2};\nВаш размер ноги: {3}", MyName, age, isPet, size);
+            //string MyName = "Елена";
+            //byte age = 42;
+            //bool isPet = true;
+            //double size = 37.5;
+            //Console.WriteLine("Мое имя:{0};\nВаш возраст:{1};\nА есть ли у вас домашний питомец:{2};\nВаш размер ноги: {3}", MyName, age, isPet, size);
+            ////Console.ReadKey();
+
+            //Console.WriteLine("IntMin {0} ", int.MinValue);
+            //Console.WriteLine("IntMax {0} ", int.MaxValue);
+
             //Console.ReadKey();
 
-            Console.WriteLine("IntMin {0} ", int.MinValue);
-            Console.WriteLine("IntMax {0} ", int.MaxValue);
+            DaysOfWeek MyFavoriteDay;
 
+            MyFavoriteDay = DaysOfWeek.Friday;
+
+            Console.WriteLine(MyFavoriteDay);
             Console.ReadKey();
 
         }
