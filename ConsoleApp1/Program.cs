@@ -69,11 +69,14 @@ namespace ConsoleApp1
 
             //Console.ReadKey();
 
-            DaysOfWeek MyFavoriteDay;
+            //DaysOfWeek MyFavoriteDay;
 
-            MyFavoriteDay = DaysOfWeek.Friday;
+            //MyFavoriteDay = DaysOfWeek.Friday;
 
-            Console.WriteLine(MyFavoriteDay);
+            //Console.WriteLine(MyFavoriteDay);
+            //Console.ReadKey();
+
+            Console.WriteLine("\tПривет,\n мир!");
             Console.ReadKey();
 
         }
