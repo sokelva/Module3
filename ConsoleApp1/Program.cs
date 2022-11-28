@@ -28,6 +28,15 @@ namespace ConsoleApp1
             Console.WriteLine('\x23');
             Console.WriteLine('\x0A');
 
+
+            Console.WriteLine(true);
+            Console.WriteLine(false);
+            Console.WriteLine(10);
+            Console.WriteLine(0x0A);
+            Console.WriteLine(0b11);
+            Console.WriteLine(5.5);
+            //Console.WriteLine(null);
+
             Console.ReadKey();
         }
     }
