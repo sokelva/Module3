@@ -76,7 +76,34 @@ namespace ConsoleApp1
             //Console.WriteLine(MyFavoriteDay);
             //Console.ReadKey();
 
-            Console.WriteLine("\tПривет,\n мир!");
+            //Console.WriteLine("\tПривет,\n мир!");
+            //Console.ReadKey();
+
+            //string name = "Елена";
+            //byte age = 42;
+            //string favcolor = "Yellow";
+            //Console.WriteLine("Привет, Мир");
+            //Console.WriteLine();
+            //Console.WriteLine($"Меня зовут {name}");
+            //Console.WriteLine($"Мой возраст {age}\nМое имя {name}");
+            //Console.WriteLine("{0}\n {1}\n {2}", name, age, favcolor);
+
+            //Console.WriteLine($"\n{age}\n{name}\n{favcolor}");
+
+            //Console.ReadLine();
+
+
+            //string MyName = "Computer";
+            //Console.WriteLine("Привет, человек");
+            //Console.WriteLine("Меня зовут {0}", MyName);
+            //Console.Write("А как тебя зовут? ");
+            //string YourName = Console.ReadLine();
+            //Console.Write("Рад встрече, {0} ", YourName);
+
+            //Console.ReadKey();
+
+            string str = Console.ReadLine();
+            Console.Write("Прочитал: {0} ", str);
             Console.ReadKey();
 
         }
