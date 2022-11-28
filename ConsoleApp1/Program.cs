@@ -43,7 +43,13 @@ namespace ConsoleApp1
             bool isPet = true;
             double size = 37.5;
             Console.WriteLine("Мое имя:{0};\nВаш возраст:{1};\nА есть ли у вас домашний питомец:{2};\nВаш размер ноги: {3}", MyName, age, isPet, size);
+            //Console.ReadKey();
+
+            Console.WriteLine("IntMin {0} ", int.MinValue);
+            Console.WriteLine("IntMax {0} ", int.MaxValue);
+
             Console.ReadKey();
+
         }
     }
 }
