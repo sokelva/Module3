@@ -10,9 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Елена";
+            const string MyName = "Елена";
             Console.WriteLine("Мое имя: {0}", MyName);
+            Console.ReadKey();
         }
     }
 }
