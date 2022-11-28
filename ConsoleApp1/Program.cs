@@ -13,6 +13,16 @@ namespace ConsoleApp1
             const string MyName = "Елена";
             Console.WriteLine("Мое имя: {0}", MyName);
             Console.ReadKey();
+
+            //-------------------------------------------------------
+
+            const string Name = "\nJane";
+            Console.WriteLine(MyName);
+            Console.WriteLine("Привет,\n мир!");
+            Console.WriteLine("Привет, мир! \n Я тебя люблю!");
+            Console.WriteLine("Мне 27 лет, \t а моей сестре 25.");
+            Console.WriteLine("My name is Jane.\n Мое имя Елена.");
+            Console.ReadKey();
         }
     }
 }
