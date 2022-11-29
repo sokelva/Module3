@@ -184,10 +184,20 @@ namespace ConsoleApp1
             string name = Console.ReadLine();
             Console.Write("Enter your age: ");
             var age = int.Parse(Console.ReadLine());
-            Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            Console.Write("Enter your birthday: ");
+            var birthday = Console.ReadLine();
+            Console.WriteLine("Your name is {0} and age is {1}. Your birthday is {2} ", name, age, birthday);
             Console.Write("What is your favorite day of week? ");
             var day = (DayOfWeek)int.Parse(Console.ReadLine());
             Console.WriteLine("Your favorite day is {0}", day);
+
+
+            //var name = "Jane";
+            //var age = checked((byte)int.Parse(Console.ReadLine()));
+            //Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            //Console.Write("What is your favorite day of week? ");
+            //var day = (DayOfWeek)int.Parse(Console.ReadLine());
+            //Console.WriteLine("Your favorite day is {0}", day);
 
             Console.ReadKey();
 
