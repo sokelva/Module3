@@ -158,10 +158,17 @@ namespace ConsoleApp1
             //Console.ReadKey();
             ////Console.ReadKey();
 
+            //Console.Write("Enter your age: ");
+            //int age;
+            //bool iscorrect = int.TryParse(Console.ReadLine(), out age);
+            //Console.WriteLine("Your age is {0} ", age);
+            //Console.ReadKey();
+
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
             Console.Write("Enter your age: ");
-            int age;
-            bool iscorrect = int.TryParse(Console.ReadLine(), out age);
-            Console.WriteLine("Your age is {0} ", age);
+            byte age = (byte)int.Parse(Console.ReadLine());
+            Console.WriteLine("Your name is {0} and age is {1} ", name, age);
             Console.ReadKey();
 
         }
