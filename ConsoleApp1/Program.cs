@@ -115,9 +115,19 @@ namespace ConsoleApp1
             //double result = 10.0 / 4.0;
             //Console.WriteLine("10.0 / 4.0 = {0}", result);
 
-            int counter = 10;
-            Console.WriteLine("Value: {0} Increment: {1}", counter, ++counter);
+            //int counter = 10;
+            //Console.WriteLine("Value: {0} Increment: {1}", counter, ++counter);
 
+            //-- 3/6/3
+            //Запишите 5 делить на 2 умножить на 3 в переменную result типа double.
+
+            //double result = 5.0 / 2.0 * 3.0; //2,5*5.0
+            //Console.WriteLine("Value: {0}", result);
+
+            double result = 5 % 6;
+            int b = 7;
+            b -= - 6;
+            Console.WriteLine("Value: {0}", b);
             Console.ReadKey();
 
 
