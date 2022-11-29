@@ -147,8 +147,13 @@ namespace ConsoleApp1
             //Console.WriteLine(data);
             ////Console.WriteLine(olddata);
 
+            //Console.Write("Enter your age: ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Your age is {0} ", age);
+            //Console.ReadKey();
+
             Console.Write("Enter your age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
+            int age = int.Parse(Console.ReadLine());
             Console.WriteLine("Your age is {0} ", age);
             Console.ReadKey();
             //Console.ReadKey();
