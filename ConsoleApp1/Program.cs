@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
 
-    //enum DaysOfWeek : byte
-    //{
-    //    Monday = 1,
-    //    Tusday,
-    //    Wedneday,
-    //    Thusday,
-    //    Friday,
-    //    Satuday,
-    //    Sunday
-    //}
+    enum DaysOfWeek : byte
+    {
+        Monday = 1,
+        Tusday,
+        Wedneday,
+        Thusday,
+        Friday,
+        Satuday,
+        Sunday
+    }
 
     enum Semaphore
     {
@@ -176,6 +176,10 @@ namespace ConsoleApp1
             Console.Write("Enter your age: ");
             byte age = checked((byte)int.Parse(Console.ReadLine()));
             Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+            Console.Write("What is your favorite day of week? ");
+            DayOfWeek day = (DayOfWeek) int.Parse(Console.ReadLine());
+            Console.WriteLine("your favorite day of week {0} ", day);
+
             Console.ReadKey();
 
         }
