@@ -130,9 +130,18 @@ namespace ConsoleApp1
             //Console.WriteLine("Value: {0}", b);
             //Console.ReadKey();
 
+            //int olddata = 6;
+            //byte data = (byte)olddata;
+            //Console.WriteLine("Value: {0}", data);
+            //Console.ReadKey();
+
             int olddata = 6;
-            byte data = (byte)olddata;
-            Console.WriteLine("Value: {0}", data);
+            string data = olddata.ToString();
+
+            Console.WriteLine(data);
+
+            Console.WriteLine(olddata);
+
             Console.ReadKey();
 
         }
