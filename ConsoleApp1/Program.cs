@@ -124,12 +124,16 @@ namespace ConsoleApp1
             //double result = 5.0 / 2.0 * 3.0; //2,5*5.0
             //Console.WriteLine("Value: {0}", result);
 
-            double result = 5 % 6;
-            int b = 7;
-            b -= - 6;
-            Console.WriteLine("Value: {0}", b);
-            Console.ReadKey();
+            //double result = 5 % 6;
+            //int b = 7;
+            //b -= - 6;
+            //Console.WriteLine("Value: {0}", b);
+            //Console.ReadKey();
 
+            int olddata = 6;
+            byte data = (byte)olddata;
+            Console.WriteLine("Value: {0}", data);
+            Console.ReadKey();
 
         }
     }
