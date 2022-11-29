@@ -135,12 +135,17 @@ namespace ConsoleApp1
             //Console.WriteLine("Value: {0}", data);
             //Console.ReadKey();
 
-            int olddata = 6;
-            string data = olddata.ToString();
+            //int olddata = 6;
+            //string data = olddata.ToString();
 
+            //Console.WriteLine(data);
+            //Console.WriteLine(olddata);
+
+            //int olddata = 6;
+            string data = "1";
+            (int) data;
             Console.WriteLine(data);
-
-            Console.WriteLine(olddata);
+            //Console.WriteLine(olddata);
 
             Console.ReadKey();
 
